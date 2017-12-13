@@ -85,6 +85,7 @@ public class Horse : MonoBehaviour {
 
 
 	public void PrintStats(){
+        Debug.Log(horseName); //Dislplays Randomly Generated Horse Name
 		foreach (var stat in statNames) {
 			Debug.Log (stat + ":\t\t" + stats [stat]);
 		}
